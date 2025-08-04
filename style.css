@@ -1,31 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+section,
+footer {
+    padding: 0 16%;
+}
+
 header,
 footer {
     background-color: #1F2937;
-    padding: 0 40px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    
 }
 
 h1,
-.logo {
+.logo,
+footer {
     color: #F9FAF8
 }
 
 .header-text,
 ul {
     color: #E5E7EB;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.header-text {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .logo {
     font-weight: 900;
+    font-size: 24px;
 }
+
+button,
+.sign-up {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
 
 ul {
     list-style: none;
