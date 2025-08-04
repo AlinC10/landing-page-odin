@@ -1,0 +1,57 @@
+header,
+footer {
+    background-color: #1F2937;
+    padding: 0 40px;
+}
+
+h1,
+.logo {
+    color: #F9FAF8
+}
+
+.header-text,
+ul {
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-text {
+    font-size: 24px;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 300px;
+}
